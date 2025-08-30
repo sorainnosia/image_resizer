@@ -10,20 +10,6 @@ A powerful command-line tool for resizing images by file size and/or dimensions,
 - **Smart Compression**: Uses iterative compression and scaling to achieve target sizes
 - **Multiple Format Support**: JPEG, PNG, GIF, BMP, WebP
 
-## Installation
-
-1. Make sure you have Rust installed (https://rustup.rs/)
-2. Clone the repository or create a new Rust project
-3. Add the code to `src/main.rs`
-4. Update `Cargo.toml` with the dependencies
-5. Build the project:
-
-```bash
-cargo build --release
-```
-
-The executable will be in `target/release/image-resizer`
-
 ## Usage
 
 ### Basic Commands
