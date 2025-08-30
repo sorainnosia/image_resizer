@@ -1,4 +1,4 @@
-# Image Resizer - Rust Application
+# Image Resizer
 
 A powerful command-line tool for resizing images by file size and/or dimensions, written in Rust.
 
