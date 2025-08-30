@@ -1,0 +1,20 @@
+[package]
+name = "image-resizer"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.4"
+image = "0.24"
+walkdir = "2.4"
+indicatif = "0.17"
+rayon = "1.8"
+
+# Optional dependencies for extended format support
+# webp = "0.2"
+# mozjpeg = "0.10"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = 3
